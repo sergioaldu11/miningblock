@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/129b8995-6d4f-4ced-a7fe-3bca1631ffb5/resourceGroups/miningblock_group/providers/Microsoft.Web/sites/miningblock",
+    "appService.deploySubpath": "dist\\miningblock"
+}
