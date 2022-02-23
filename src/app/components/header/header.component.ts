@@ -6,6 +6,35 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
+  
+  menuItems =[{
+    'icon':'bi bi-house',
+    'url':'/'
+  },
+  {
+    'titulo':'¿Que es blockchain?',
+    'url':'/blockchain'
+  },
+  {
+    'titulo':'Nodos',
+    'url':'/nodos'
+  },  
+  {
+    'titulo':'Rig',
+    'url':'/rig'
+  },
+  {
+    'titulo':'Calculadora',
+    'url':'/calculadora'
+  },
+  {
+    'titulo':'About',
+    'url':'/about'
+  },
+  {
+    'titulo':'Contact',
+    'url':'/contact'
+  }];
 
   constructor() { }
 

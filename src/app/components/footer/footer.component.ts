@@ -7,6 +7,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
+  footerItems =[{
+    'icon':'bi bi-house',
+    'class':'col-2',
+    'url':'/'
+  },
+  {
+    'titulo':'About',
+    'class':'col-8',
+    'url':'/about'
+  },
+  {
+    'titulo':'Contact',
+    'class':'contact',
+    'url':'/contact'
+  }];
+
   constructor() { }
 
   ngOnInit(): void {
