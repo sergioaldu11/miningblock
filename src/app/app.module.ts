@@ -7,7 +7,6 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
 import { AboutComponent } from './pages/about/about.component';
-import { ContactComponent } from './pages/contact/contact.component';
 import { BlockchainComponent } from './pages/blockchain/blockchain.component';
 import { NodosComponent } from './pages/nodos/nodos.component';
 import { RigComponent } from './pages/rig/rig.component';
@@ -20,7 +19,6 @@ import { CalculadoraComponent } from './pages/calculadora/calculadora.component'
     FooterComponent,
     HomeComponent,
     AboutComponent,
-    ContactComponent,
     BlockchainComponent,
     NodosComponent,
     RigComponent,

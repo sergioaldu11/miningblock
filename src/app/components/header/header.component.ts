@@ -28,12 +28,8 @@ export class HeaderComponent implements OnInit {
     'url':'/calculadora'
   },
   {
-    'titulo':'About',
+    'titulo':'Sobre nosotros',
     'url':'/about'
-  },
-  {
-    'titulo':'Contact',
-    'url':'/contact'
   }];
 
   constructor() { }

@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './pages/about/about.component';
 import { HomeComponent } from './pages/home/home.component';
-import { ContactComponent } from './pages/contact/contact.component';
 import { BlockchainComponent } from './pages/blockchain/blockchain.component';
 import { NodosComponent } from './pages/nodos/nodos.component';
 import { RigComponent } from './pages/rig/rig.component';
@@ -32,10 +31,6 @@ const routes: Routes = [
   {
     path: 'about',
     component: AboutComponent
-  },
-  {
-    path: 'contact',
-    component: ContactComponent
   }
 ];
 

@@ -1,11 +1,50 @@
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-bottom">
-    <div class="container-fluid">
-        <div class="row">
-            <ul class="navbar-nav">
-                <li class="nav-item" *ngFor="let data of footerItems">
-                    <a class="nav-link {{data.class}}" routerLink="{{data.url}}"><i class = {{data.icon}}></i>{{data.titulo}}</a>
-                </li>
-            </ul>
-        </div>
+<footer id="footer" class="text-center text-lg-start bg-light text-muted">
+  <section class="d-flex justify-content-center justify-content-lg-between p-5 border-bottom">
+    <div class="me-5 d-none d-lg-block">
+      <span>Conecta con las principales redes sociales:</span>
     </div>
-</nav>
+    <div>
+      <a href="" class="me-4 text-reset"><i class="bi bi-facebook"></i></a>
+      <a href="" class="me-4 text-reset"><i class="bi bi-twitter"></i></a>
+      <a href="" class="me-4 text-reset"><i class="bi bi-google"></i></a>
+      <a href="" class="me-4 text-reset"><i class="bi bi-instagram"></i></a>
+      <a href="" class="me-4 text-reset"><i class="bi bi-linkedin"></i></a>
+      <a href="" class="me-4 text-reset"><i class="bi bi-github"></i></a>
+    </div>
+  </section>
+
+  <section>
+    <div class="container text-center text-md-start mt-5">
+      <div class="row mt-3">
+        <div class="col-md-5 col-lg-7 col-xl-5 mx-auto mb-7">
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem"></i>Estudio de los tipos de nodos de las redes blockchain.
+            </h6>
+            <p>En este trabajo se estudian los diferentes tipos de nodos implantados en las redes blockchain.</p>
+        </div>
+
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-5">
+          <h6 class="text-uppercase fw-bold mb-4">Enlaces</h6>
+            <p><a routerLink='blockchain' class="text-reset">¿Que és blockchain?</a></p>
+            <p><a href='nodos' class="text-reset">Nodos</a></p>
+            <p><a href='rig' class="text-reset">Rig</a></p>
+            <p><a href='calculadora' class="text-reset">Calculadora</a></p>
+            <p><a href='about' class="text-reset">Sobre nosotros</a></p>
+        </div>
+       
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
+            <p><i class="me-3"></i>Barcelona</p>
+            <p><i class="me-3"></i>sergioaldu11@gmail.com</p>
+            <p><i class="me-3"></i> +34 66 66 66 66</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2022 Copyright:
+    <a class="text-reset fw-bold" href="https://miningblock.azurewebsites.net">https://miningblock.azurewebsites.net</a>
+  </div>
+
+</footer>

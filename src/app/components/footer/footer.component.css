@@ -1,9 +1,6 @@
-.about{
-    margin-left: 900%;
-    
-}
+#footer{
 
-.contact{
-    float: right;
-    margin: 0 15px 0 0;
+        bottom: 0;
+        position: absolute;
+        width : 100%;
 }
