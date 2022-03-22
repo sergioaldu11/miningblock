@@ -8,10 +8,6 @@ import { Component, OnInit } from '@angular/core';
 export class HeaderComponent implements OnInit {
   
   menuItems =[{
-    'icon':'bi bi-house',
-    'url':'/'
-  },
-  {
     'titulo':'¿Que es blockchain?',
     'url':'/blockchain'
   },

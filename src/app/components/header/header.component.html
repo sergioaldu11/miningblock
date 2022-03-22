@@ -1,8 +1,12 @@
 <header>
   <nav class="navbar navbar-expand-xl">
       <ul class="nav navbar-nav">
+        <a routerLink="/">
+          <img class="icon" src = "../../assets/img/logo_white.png">
+        </a>
+
         <li class="nav-item" *ngFor="let data of menuItems">
-          <a class="nav-link" routerLink="{{data.url}}"><i class = {{data.icon}}></i>{{data.titulo}}</a>
+          <a class="nav-link" routerLink="{{data.url}}">{{data.titulo}}</a>
         </li>
       </ul>
   </nav>  
