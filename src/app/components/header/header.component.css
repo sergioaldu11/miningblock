@@ -26,4 +26,13 @@ img.icon{
     max-height: 75%;
 }
 
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+a.resaltar:hover {
+    color:#929292
+}
+
+
 

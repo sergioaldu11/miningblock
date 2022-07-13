@@ -1,13 +1,21 @@
 <header>
-  <nav class="navbar navbar-expand-xl fixed-top">
-    <ul class="nav navbar-nav">
-        <a routerLink="/">
-          <img class="icon" src = "../../assets/img/logo_white.png">
-        </a>
+  <div class="container-fluid">
 
-        <li class="nav-item" *ngFor="let data of menuItems">
-          <a class="nav-link" routerLink="{{data.url}}">{{data.titulo}}</a>
-        </li>
-      </ul>
-  </nav>  
+    <nav class="navbar navbar-expand-xl fixed-top">
+      <ul class="nav navbar-nav">
+          <a routerLink="/">
+            <img class="icon" src = "../../assets/img/logo_white.png">
+          </a>
+
+          <li class="nav-item {{data.dropdown}}" *ngFor="let data of menuItems">
+            <a class="nav-link resaltar" routerLink="{{data.url}}">{{data.titulo}}</a>
+            <ul class="dropdown-menu dropdown-menu-dark" *ngIf="data.dropdown">
+              <li *ngFor="let subItem of data.subItems">
+                <a class="dropdown-item " routerLink="{{subItem.url}}">{{subItem.titulo}}</a>
+              </li>
+            </ul>
+          </li>
+        </ul> 
+    </nav>  
+  </div>
 </header>
