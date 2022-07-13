@@ -11,7 +11,7 @@
             <a class="nav-link resaltar" routerLink="{{data.url}}">{{data.titulo}}</a>
             <ul class="dropdown-menu dropdown-menu-dark" *ngIf="data.dropdown">
               <li *ngFor="let subItem of data.subItems">
-                <a class="dropdown-item " routerLink="{{subItem.url}}">{{subItem.titulo}}</a>
+                <a class="dropdown-item" routerLink="{{data.url}}{{subItem.url}}">{{subItem.titulo}}</a>
               </li>
             </ul>
           </li>
